@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title> Image Identification Web App </title>
+
+    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<center> 
+
+    <div class="col-xs-12 header_division">
+        <h1> Image Identification </h1>
+        <img src="logo.gif">
+
+
+    </div>
+    <div class="col-sm-6 col-xs-12 main_division">
+        <label> webcam view</label>
+        
+        <div id="camera"> </div>
+        <button onclick="capture_img()" class="btn btn-info">take snapshot</button>
+
+    </div>  
+   
+    <div class="col sm-6 col xs-12 result_division">
+        <label> snapshot view </label>
+        <div id="result"></div>
+        <button onclick="check()" class="btn btn-success"> check </button>
+    </div>
+
+</center>
+<div class="col xs-12 footer_div">
+    <h4 class="col sm-6 col xs-12" >
+        <img src="bulb.gif">
+        <span id="object_name"></span>
+    </h4>
+    
+</div>
+<div class="copyright_footer"> developed by: Aadeshvir Singh </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

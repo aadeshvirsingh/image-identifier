@@ -1,0 +1,77 @@
+body{
+    background: aquamarine;
+    font-family: 'Special Elite', cursive;
+
+}
+.header_division{
+    background: burlywood;
+    
+}
+.header_division img{
+    width: 100px;
+    
+}
+.main_division{
+    background: royalblue;
+    padding: 10px;
+    margin-top: 15px;
+    border: seagreen  solid 5px;
+}
+.main_division label{
+    background: white;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 0px;
+}
+#camera ,#result{
+    border: 2px solid white;
+    width: 300px;
+    height:300px;
+    box-shadow: 5px 5px 10px gray;
+    
+}
+.main_division button{
+    background: khaki;
+    font-size: 20px;
+    color: black;
+    border: 1px solid;
+}
+#result{
+    margin-left: 7px; 
+}
+.result_division{
+    background: yellow;
+    margin-left: 800px;
+    margin-top: 200px;
+    margin-bottom: 800px;
+    border: seagreen  solid 5px;
+}
+.result_division label{
+    background: white;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 0px;
+}
+.footer_div{
+    margin-bottom:50px;
+}
+.footer_div h4{
+    background: white;
+    border-radius:10px;
+    padding:5px;
+    box-shadow:5px 5px 18px white;
+}
+.footer_div img{
+    width:70px;
+    
+}
+.copyright_footer{
+    position:fixed;
+    color:green;
+    bottom:0px;
+    background-color:powderblue;
+    text-align:center;
+    width:100%;
+}
